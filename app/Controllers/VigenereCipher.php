@@ -12,6 +12,7 @@ class VigenereCipher extends BaseController
         $plainText = null;
         $plainTextencrypt = null;
         $cipherTextdecrypt = null;
+        $tipeFile = null;
         $keyencrypt = null;
         $keydecrypt = null;
 
@@ -23,6 +24,7 @@ class VigenereCipher extends BaseController
             'cipherTextdecrypt' => session()->getFlashdata('cipherTextdecrypt') ?? $cipherTextdecrypt,
             'keyencrypt' => session()->getFlashdata('keyencrypt') ?? $keyencrypt,
             'keydecrypt' => session()->getFlashdata('keydecrypt') ?? $keydecrypt,
+            'tipeFile' => session()->getFlashdata('tipeFile') ?? $tipeFile,
         ];
 
         return view('templates/v_header', $data) .
@@ -120,6 +122,7 @@ class VigenereCipher extends BaseController
 
         session()->setFlashdata('plainTextencrypt', $plainText);
         session()->setFlashdata('keyencrypt', $key);
+        session()->setFlashdata('tipeFile', 'txt');
 
         $alphabets = range('a', 'z');
 
@@ -263,6 +266,9 @@ class VigenereCipher extends BaseController
 
         $cipherText = $this->request->getPost('inputTextDecrypt') ?? '';
         $key = $this->request->getPost('kunciDecrypt') ?? '';
+        session()->setFlashdata('cipherTextdecrypt', $cipherText);
+        session()->setFlashdata('keydecrypt', $key);
+        session()->setFlashdata('tipeFile', 'txt');
 
         $alphabets = range('a', 'z');
 

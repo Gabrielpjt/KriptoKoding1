@@ -15,7 +15,10 @@
         "ext-json": "*",
         "ext-mbstring": "*",
         "laminas/laminas-escaper": "^2.9",
-        "psr/log": "^1.1"
+        "psr/log": "^1.1",
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^2.6",
+        "smalot/pdfparser": "^2.8"
     },
     "require-dev": {
         "codeigniter/coding-standard": "^1.7",

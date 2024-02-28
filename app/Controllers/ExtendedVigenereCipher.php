@@ -4,6 +4,13 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 
+//require '../vendor/autoload.php';
+
+use Smalot\PdfParser\Parser; // Import namespace untuk Parser dari Smalot\PdfParser
+
+// Memuat kelas FPDF
+//require_once APPPATH . '../vendor/fpdf/fpdf.php';
+
 class ExtendedVigenereCipher extends BaseController
 {
   public function index()
@@ -14,6 +21,7 @@ class ExtendedVigenereCipher extends BaseController
     $cipherTextdecrypt = null;
     $keyencrypt = null;
     $keydecrypt = null;
+    $tipeFile = null;
 
     $data = [
       'judul' => 'Extended Vigenere Cipher',
@@ -23,6 +31,7 @@ class ExtendedVigenereCipher extends BaseController
       'cipherTextdecrypt' => session()->getFlashdata('cipherTextdecrypt') ?? $cipherTextdecrypt,
       'keyencrypt' => session()->getFlashdata('keyencrypt') ?? $keyencrypt,
       'keydecrypt' => session()->getFlashdata('keydecrypt') ?? $keydecrypt,
+      'tipeFile' => session()->getFlashdata('tipeFile') ?? $tipeFile,
     ];
 
     return view('templates/v_header', $data) .
@@ -34,19 +43,22 @@ class ExtendedVigenereCipher extends BaseController
 
   public function encryptExtendedVigenereCipherfile()
   {
-    $filePath = WRITEPATH . 'uploads/Input_Teks.txt';
-    $key = $this->request->getPost('kunci') ?? '';
-    session()->setFlashdata('keyencrypt', $key);
+  if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
+    if ($_FILES['inputFile']['error'] === UPLOAD_ERR_OK) {
+      $tmp = explode('.', $_FILES['inputFile']['name']);
+      $ext = end($tmp);
+      $key = $_POST['kunci'] ?? '';
+      $plainText = file_get_contents($_FILES['inputFile']['tmp_name']);
+      session()->setFlashdata('plainTextencrypt', $plainText);
+      session()->setFlashdata('keyencrypt', $key);
 
-    if (file_exists($filePath)) {
-      $fileContent = file_get_contents($filePath);
-    } else {
-      echo 'File not found.';
-      return;
+      // Get MIME type of the uploaded file
+      $fileName = $_FILES['inputFile']['name'];
+      $pecah = explode(".", $fileName);
+      $tipeFile = $pecah[1];
+      session()->setFlashdata('tipeFile', $tipeFile);
     }
-
-    $plainText = $fileContent;
-    session()->setFlashdata('plainTextencrypt', $plainText);
+  }
 
     if (empty($plainText) || empty($key)) {
       return redirect()->back()->withInput()->with('error', 'Please provide both plaintext and key.');
@@ -92,15 +104,25 @@ class ExtendedVigenereCipher extends BaseController
     // Simpan hasil enkripsi ke dalam file
     //write_file(WRITEPATH . 'uploads/encrypt.txt', $cipherText);
 
-    return redirect()->to('/VigenereCipher');
+    return redirect()->to('/ExtendedVigenereCipher');
   }
 
 
 
   public function encryptextendedvigenerecipher()
   {
+    // Menetapkan header HTTP
+    $response = service('response');
+    $response->setHeader('Content-Type', 'text/html; charset=ISO-8859-1');
     $plainText = $this->request->getPost('inputText') ?? '';
     $key = $this->request->getPost('kunci') ?? '';
+
+    session()->setFlashdata('plainTextencrypt', $plainText);
+    session()->setFlashdata('keyencrypt', $key);
+
+
+    $tipeFile = 'txt';
+    session()->setFlashdata('tipeFile', $tipeFile);
 
     while (strlen($plainText) > strlen($key)) {
       $key .= $key;
@@ -142,24 +164,26 @@ class ExtendedVigenereCipher extends BaseController
     // Simpan hasil enkripsi ke dalam file
     //write_file(WRITEPATH . 'uploads/encrypt.txt', $cipherText);
 
-    return redirect()->to('/VigenereCipher');
+    return redirect()->to('/ExtendedVigenereCipher');
   }
 
-  public function decryptExtendedVignereCipherfile()
+  public function decryptExtendedVigenereCipherfile()
   {
-    $filePath = WRITEPATH . 'uploads/Input_Teks.txt';
-    $key = $this->request->getPost('kunci') ?? '';
-    session()->setFlashdata('keydecrypt', $key);
-
-    if (file_exists($filePath)) {
-      $fileContent = file_get_contents($filePath);
-    } else {
-      echo 'File not found.';
-      return;
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
+      if ($_FILES['inputFileDecrypt']['error'] === UPLOAD_ERR_OK) {
+        $tmp = explode('.', $_FILES['inputFileDecrypt']['name']);
+        $ext = end($tmp);
+        $key = $_POST['kunci'] ?? '';
+        $cipherText = file_get_contents($_FILES['inputFileDecrypt']['tmp_name']);
+        session()->setFlashdata('cipherTextdecrypt', $cipherText);
+  
+        // Get MIME type of the uploaded file
+        $fileName = $_FILES['inputFileDecrypt']['name'];
+        $pecah = explode(".", $fileName);
+        $tipeFile = $pecah[1];
+        session()->setFlashdata('tipeFile', $tipeFile);
+      }
     }
-
-    $cipherText = $fileContent;
-    session()->setFlashdata('cipherTextdecrypt', $cipherText);
 
     if (empty($cipherText) || empty($key)) {
       return redirect()->back()->withInput()->with('error', 'Please provide both ciphertext and key.');
@@ -202,7 +226,7 @@ class ExtendedVigenereCipher extends BaseController
     // Simpan hasil enkripsi ke dalam session flashdata
     session()->setFlashdata('plainText', $plainText);
 
-    return redirect()->to('/VigenereCipher');
+    return redirect()->to('/ExtendedVigenereCipher');
   }
 
   public function decryptextendedvigenerecipher()
@@ -248,6 +272,6 @@ class ExtendedVigenereCipher extends BaseController
     // Simpan hasil enkripsi ke dalam session flashdata
     session()->setFlashdata('plainText', $plainText);
 
-    return redirect()->to('/VigenereCipher');
+    return redirect()->to('/ExtendedVigenereCipher');
   }
 }

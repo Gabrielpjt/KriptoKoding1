@@ -307,36 +307,43 @@ class ProductCipher extends BaseController
         $totalChars = strlen($input);
         $totalColumns = ceil($totalChars / $keyLength);
         $totalRows = $keyLength;
-        $rowChars = array(array());
-        $colChars = array(array());
-        $unsortedColChars = array(array());
-        $currentRow = 0; $currentColumn = 0; $i = 0; $j = 0;
+        $rowChars = array();
+        $colChars = array();
+        $unsortedColChars = array();
+        $currentRow = 0;
+        $currentColumn = 0;
+        $i = 0;
+        $j = 0;
         $shiftIndexes = $this->GetShiftIndexes($key);
-
-        for ($i = 0; $i < $totalChars; ++$i)
-        {
+    
+        for ($i = 0; $i < $totalChars; ++$i) {
             $currentRow = $i / $totalColumns;
             $currentColumn = $i % $totalColumns;
             $rowChars[$currentRow][$currentColumn] = $input[$i];
         }
-
-        for ($i = 0; $i < $totalRows; ++$i)
-            for ($j = 0; $j < $totalColumns; ++$j)
-                $colChars[$j][$i] = $rowChars[$i][$j];
-
-        for ($i = 0; $i < $totalColumns; ++$i)
-            for ($j = 0; $j < $totalRows; ++$j)
-                $unsortedColChars[$i][$j] = $colChars[$i][$shiftIndexes[$j]];
-
-        for ($i = 0; $i < $totalChars; ++$i)
-        {
+    
+        for ($i = 0; $i < $totalRows; ++$i) {
+            for ($j = 0; $j < $totalColumns; ++$j) {
+                // Perbaikan inisialisasi array untuk menghindari "Undefined array key"
+                $colChars[$j][$i] = $rowChars[$i][$j] ?? '';
+            }
+        }
+    
+        for ($i = 0; $i < $totalColumns; ++$i) {
+            for ($j = 0; $j < $totalRows; ++$j) {
+                $unsortedColChars[$i][$j] = $colChars[$i][$shiftIndexes[$j]] ?? '';
+            }
+        }
+    
+        for ($i = 0; $i < $totalChars; ++$i) {
             $currentRow = $i / $totalRows;
             $currentColumn = $i % $totalRows;
             $output .= $unsortedColChars[$currentRow][$currentColumn];
         }
-
+    
         return $output;
     }
+
 
     private function transposeencrypt($text, $key)
     {
@@ -347,7 +354,7 @@ class ProductCipher extends BaseController
     private function transposedecrypt($text, $key)
     {
         // Memanggil fungsi Encipher dengan teks dan kunci yang diberikan
-        return $this->Decipher($text, $key, ' ');
+        return $this->Decipher($text, $key);
     }
     
 }

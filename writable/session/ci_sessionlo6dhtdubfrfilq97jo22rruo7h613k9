@@ -1,0 +1,12 @@
+__ci_last_regenerate|i:1709091799;_ci_previous_url|s:54:"http://localhost:8080/index.php/ExtendedVigenereCipher";tipeFile|s:4:"html";__ci_vars|a:4:{s:8:"tipeFile";s:3:"old";s:10:"keyencrypt";s:3:"old";s:16:"plainTextencrypt";s:3:"old";s:10:"cipherText";s:3:"old";}keyencrypt|s:5:"keren";plainTextencrypt|s:142:"<!DOCTYPE html>
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+
+</body>
+</html>
+";cipherText|s:142:"§†¶´±¿¾ÂªÓÙßÑ¬xo®ÍâØÑ°rx§Í×ÆÒ©r|nªßÎæÑÓ©™¢˜±ÔäÇ×ÏÉ×ÓªšÙÛÙÚĞ£oªšÍ×ÆÒ©r|¡ĞÚÉë£{ur|¡Ş©©Û×ÓÎÙá×ç‹ÆÕÈÓŞØ’Îá‹Ëá×ĞÔÉÖÊÜ™¡¡Õ¬xooªšÇáÉç©r|¡ÓÙßÑ¬xo";

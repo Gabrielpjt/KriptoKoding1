@@ -30,6 +30,18 @@ $routes->post('/ProductCipher/decryptProductCipher', 'ProductCipher::decryptProd
 $routes->post('/ProductCipher/encryptProductCipherfile', 'ProductCipher::encryptProductCipherfile');
 $routes->post('/ProductCipher/decryptProductCipherfile', 'ProductCipher::decryptProductCipherfile');
 
+$routes->get('/AffineCipher', 'AffineCipher::index');
+$routes->post('/AffineCipher/encryptAffineCipher', 'AffineCipher::encryptaffinecipher');
+$routes->post('/AffineCipher/decryptAffineCipher', 'AffineCipher::decryptaffinecipher');
+$routes->post('/AffineCipher/encryptAffineCipherfile', 'AffineCipher::encryptAffineCipherfile');
+$routes->post('/AffineCipher/decryptAffineCipherfile', 'AffineCipher::decryptAffineCipherfile');
+
+$routes->get('/AutokeyVigenereCipher', 'AutokeyVigenereCipher::index');
+$routes->post('/AutokeyVigenereCipher/encryptAutokeyVigenereCipher', 'AutokeyVigenereCipher::encryptautokeyvigenerecipher');
+$routes->post('/AutokeyVigenereCipher/decryptAutokeyVigenereCipher', 'AutokeyVigenereCipher::decryptautokeyvigenerecipher');
+$routes->post('/AutokeyVigenereCipher/encryptAutokeyVigenereCipherfile', 'AutokeyVigenereCipher::encryptAutokeyVigenereCipherfile');
+$routes->post('/AutokeyVigenereCipher/decryptAutokeyVigenereCipherfile', 'AutokeyVigenereCipher::decryptAutokeyVigenereCipherfile');
+
 $routes->get('download/file/(:any)', 'Download::file/$1');
 
 $routes->get('upload', 'Upload::index');

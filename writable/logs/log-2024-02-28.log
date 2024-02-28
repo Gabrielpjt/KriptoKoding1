@@ -319,3 +319,898 @@ INFO - 2024-02-28 02:34:40 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-02-28 02:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-02-28 02:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-02-28 02:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 03:30:14 --> ErrorException: Undefined variable $fileInfo
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 54.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fileInfo', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 03:30:51 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 03:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 03:40:19 --> Error: Call to a member function getClientExtension() on string
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 03:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 03:45:13 --> ErrorException: file_put_contents(C:\Users\LOQ\Documents\kripto\Tugas1-kriptokod\kriptokod\KriptoKoding1\writable\uploads/encrypt.): Failed to open stream: Permission denied
+in APPPATH\Views\ExtendedVigenereCipher\index.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/encrypt.): Failed to open stream: Permission denied', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Views\\ExtendedVigenereCipher\\index.php', 66)
+ 2 APPPATH\Views\ExtendedVigenereCipher\index.php(66): file_put_contents('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/encrypt.', 'ÍÆàÉãÙÌßÆÜßÆâ')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Views\\ExtendedVigenereCipher\\index.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ExtendedVigenereCipher/index', [], true)
+ 6 APPPATH\Controllers\ExtendedVigenereCipher.php(33): view('ExtendedVigenereCipher/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 03:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 03:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 04:18:25 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 7.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 7)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 04:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 04:23:10 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 7.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 7)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 04:24:45 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 7.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 7)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 04:24:47 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 7.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 7)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 04:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 04:24:51 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 7.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 7)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 04:24:54 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 7.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 7)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 04:24:54 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 7.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 7)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 04:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 04:24:58 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 7.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 7)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 04:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 04:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 04:26:02 --> Error: Class "FPDF" not found
+in VENDORPATH\setasign\fpdi\src\FpdfTpl.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\vendor\\composer/../setasign/fpdi/src/FpdfTpl.php')
+ 3 VENDORPATH\setasign\fpdi\src\Fpdi.php(23): CodeIgniter\Autoloader\Autoloader->loadClassmap('setasign\\Fpdi\\FpdfTpl')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\vendor\\setasign\\fpdi\\src\\Fpdi.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\vendor\\composer/../setasign/fpdi/src/Fpdi.php')
+ 6 APPPATH\Controllers\ExtendedVigenereCipher.php(67): CodeIgniter\Autoloader\Autoloader->loadClassmap('setasign\\Fpdi\\Fpdi')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 05:13:43 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 7.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 7)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 05:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 05:14:00 --> Error: Class "FPDF" not found
+in VENDORPATH\setasign\fpdi\src\FpdfTpl.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\vendor\\composer/../setasign/fpdi/src/FpdfTpl.php')
+ 3 VENDORPATH\setasign\fpdi\src\Fpdi.php(23): CodeIgniter\Autoloader\Autoloader->loadClassmap('setasign\\Fpdi\\FpdfTpl')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\vendor\\setasign\\fpdi\\src\\Fpdi.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\vendor\\composer/../setasign/fpdi/src/Fpdi.php')
+ 6 APPPATH\Controllers\ExtendedVigenereCipher.php(67): CodeIgniter\Autoloader\Autoloader->loadClassmap('setasign\\Fpdi\\Fpdi')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 05:17:47 --> ErrorException: require_once(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 7.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 7)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(7): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 05:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 05:18:00 --> ErrorException: Undefined variable $filepath
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 65.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filepath', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 05:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 05:30:27 --> ErrorException: include(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 7.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 7)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(7): include()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 05:30:51 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 7.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 7)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(7): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 05:33:38 --> ErrorException: require(../../vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 7.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../../vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 7)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(7): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 05:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 05:34:01 --> ErrorException: Undefined variable $file
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 68.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 05:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 05:37:20 --> ErrorException: Undefined variable $file
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 68.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 05:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 05:37:41 --> Exception: Invalid PDF data: missing %PDF header.
+in VENDORPATH\smalot\pdfparser\src\Smalot\PdfParser\RawData\RawDataParser.php on line 938.
+ 1 VENDORPATH\smalot\pdfparser\src\Smalot\PdfParser\Parser.php(103): Smalot\PdfParser\RawData\RawDataParser->parseData('<!DOCTYPE html>
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+
+</body>
+</html>
+')
+ 2 VENDORPATH\smalot\pdfparser\src\Smalot\PdfParser\Parser.php(91): Smalot\PdfParser\Parser->parseContent('<!DOCTYPE html>
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+
+</body>
+</html>
+')
+ 3 APPPATH\Controllers\ExtendedVigenereCipher.php(68): Smalot\PdfParser\Parser->parseFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/index.html')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 05:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 05:40:13 --> Exception: Invalid PDF data: missing %PDF header.
+in VENDORPATH\smalot\pdfparser\src\Smalot\PdfParser\RawData\RawDataParser.php on line 938.
+ 1 VENDORPATH\smalot\pdfparser\src\Smalot\PdfParser\Parser.php(103): Smalot\PdfParser\RawData\RawDataParser->parseData('<!DOCTYPE html>
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+
+</body>
+</html>
+')
+ 2 VENDORPATH\smalot\pdfparser\src\Smalot\PdfParser\Parser.php(91): Smalot\PdfParser\Parser->parseContent('<!DOCTYPE html>
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+
+</body>
+</html>
+')
+ 3 APPPATH\Controllers\ExtendedVigenereCipher.php(68): Smalot\PdfParser\Parser->parseFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/index.html')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 05:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 05:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 05:40:23 --> Exception: Invalid PDF data: missing %PDF header.
+in VENDORPATH\smalot\pdfparser\src\Smalot\PdfParser\RawData\RawDataParser.php on line 938.
+ 1 VENDORPATH\smalot\pdfparser\src\Smalot\PdfParser\Parser.php(103): Smalot\PdfParser\RawData\RawDataParser->parseData('<!DOCTYPE html>
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+
+</body>
+</html>
+')
+ 2 VENDORPATH\smalot\pdfparser\src\Smalot\PdfParser\Parser.php(91): Smalot\PdfParser\Parser->parseContent('<!DOCTYPE html>
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+
+</body>
+</html>
+')
+ 3 APPPATH\Controllers\ExtendedVigenereCipher.php(68): Smalot\PdfParser\Parser->parseFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/index.html')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 05:41:35 --> ErrorException: require_once(C:\Users\LOQ\Documents\kripto\Tugas1-kriptokod\kriptokod\KriptoKoding1\app\../vendor/fpdf/fpdf.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 12.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\../vendor/fpdf/fpdf.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 12)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(12): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 05:51:03 --> ErrorException: require_once(C:\Users\LOQ\Documents\kripto\Tugas1-kriptokod\kriptokod\KriptoKoding1\app\../vendor/fpdf/fpdf.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 12.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\../vendor/fpdf/fpdf.php): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 12)
+ 2 APPPATH\Controllers\ExtendedVigenereCipher.php(12): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ExtendedVigenereCipher')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ExtendedVigenereCipher')
+ 7 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ExtendedVigenereCipher', true)
+ 8 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 05:51:23 --> ErrorException: Undefined array key "plain"
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 83.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "plain"', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 05:54:18 --> ErrorException: Undefined array key "inputFile"
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 83.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "inputFile"', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 05:59:06 --> ErrorException: Undefined array key "inputFile"
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 83.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "inputFile"', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 05:59:11 --> ErrorException: Undefined array key "inputFile"
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 83.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "inputFile"', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 06:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 06:02:00 --> ErrorException: Undefined array key "plain"
+in APPPATH\Controllers\Upload.php on line 74.
+ 1 APPPATH\Controllers\Upload.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "plain"', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\Upload.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Upload->doUploadExtendedVigenereCipher()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 06:02:30 --> Error: Class "App\Controllers\ExtendedVigenere" not found
+in APPPATH\Controllers\Upload.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Upload->doUploadExtendedVigenereCipher()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 06:05:56 --> Error: Non-static method App\Controllers\ExtendedVigenereCipher::encryptExtendedVigenereCipherfile() cannot be called statically
+in APPPATH\Controllers\Upload.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Upload->doUploadExtendedVigenereCipher()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 06:08:27 --> Error: Non-static method App\Controllers\ExtendedVigenereCipher::encryptExtendedVigenereCipherfile() cannot be called statically
+in APPPATH\Controllers\Upload.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Upload->doUploadExtendedVigenereCipher()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 06:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 06:08:35 --> ArgumentCountError: Too few arguments to function App\Controllers\ExtendedVigenereCipher::encryptExtendedVigenereCipherfile(), 0 passed in C:\Users\LOQ\Documents\kripto\Tugas1-kriptokod\kriptokod\KriptoKoding1\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+CRITICAL - 2024-02-28 06:09:16 --> Error: Class "App\Controllers\ExtendedVigenere" not found
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 06:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 06:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 08:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 10:16:41 --> ErrorException: file_put_contents(C:\Users\LOQ\Documents\kripto\Tugas1-kriptokod\kriptokod\KriptoKoding1\writable\uploads/encrypt.): Failed to open stream: Permission denied
+in APPPATH\Views\ExtendedVigenereCipher\index.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/encrypt.): Failed to open stream: Permission denied', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Views\\ExtendedVigenereCipher\\index.php', 62)
+ 2 APPPATH\Views\ExtendedVigenereCipher\index.php(62): file_put_contents('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/encrypt.', 'µ¶«›œ“©oŸ‹•’ÔĞÕo®¡š¹ëÕÓ‹”µÆâÌÑáÌxš´çÙÚÔÓ×Ø…¢…Àu”ÂÆÕĞØ’˜›…Ä…¬©o×ÓÒÚÇÜo ‹•’ÔĞÕo®¡š¹ëÕÓ‹”ÁÚâ×ÎàÊá‹”µÔãÙÙ’•©£|ÊÜÏÔÔÏx…¢…İÍÏ|¡ª‹”ÆŞŞĞ…¡µÏÒÊåo¶ÎÖØÆ›’•½oÏo®ÔçÓâ‹–|”ÀĞØáÚàÎÊå…ª§o¡µàÚÈÅÊâ‹™’•½o¡«İÙÙ’¡ª‹o¡«Ÿ‹’•½o¡« ‹’•½o°£x©£|”»ĞÉÛÆ°Úİ’À™•¢•›“¢•‹š«šœ¢…¦Ÿ– §›Â|…¬©o×ÓÒÚÇÜo¢‹•’ÔĞÕoÍ”¾¯«’”ÂĞİæ…ËuÊàÉİÍÏ|š›…áÇØu¡®o»×áÉãÎÊä…–idrÉnÚeßeŞkÉrËn‹e£eœk–r“nœe’e™k…r¨n»e¶e´”o¡¨àĞÆæÎİÙ©ÓÙÓ‹¶Ÿ ›—£– œ™¤—£Ÿ•£›Œ¢••”o¡²İÏ©ÓÙÓ‹¶Ÿ ›—£– œ™¤—£Ÿ•£›Œ¢••”o¡¹×ßÑ×…–idrµn³eÂeÅkÔr×nÏ|”¯àÙÚÔà‹pdn¬eŞeÓkÏrÆnÙeÖeàkÔ›o¬©o×ÓÒÚÇÜo¤‹•’ÔĞÕo®¡š¹ëÕÓ‹”ÂÆÕĞo¡²ÓÏÎÓ§İã…Í•œ›•¢…™•¢• §“ £•’¢œ“ªÈo¡µÏİÊàÙ…¢…Àu”µÔÜßÊàÙá‹œ’•½o°£xĞÓÖÔĞÕo©…‹ÔÔÏx§¡’”´ÔÑæÊà‹”¸ÑÏßÊ¶ÊÑÚÉ×o·ÊàÌâÓ…£—…°£xŞÙäÊÏØoêëÁ²á€¥{"Y¼:¥tmš0oOíğíÿÛC¨An*ÉÇ×µS(Àcó¬cµf;ÁòKû	”É|ò˜áËL¼Ö<LaáA+e[Œ¯7ã¶µ8£·o€<«çbÏf³,Um{NB<]Í!äíM{7ƒ8u•PÅïŞs¥İº›»ÑµkUDc®3' . "\0" . 'MK_y&9#·ÂÍÑÕŒ\'P¡)>®È¼jğ Q	ªéQ¯ÄÁGÚ’<~Í:‹·	ÿğô»„ü|ÿÚG—ï
+ÄÌ4Ì,İJ¾jc(Ş+”ÕqkõÇ÷ÑwòÄWŞyş
+#ôò¸t{ñõ4Í‘ÁFHv|Ybü	|­”Èù-(Áo$?˜±’}õØ9nİ¶PÃĞ»ægrã\\oĞoCÊç€(Îò	ù\'ü¼;ç2ˆ´&hóúËB¾¡!WI`@dOib¤Ä“’Òš5®_7‡CÌÚ½Ã½½VûÀ<Ç›«ƒ’øvv.Ö²¯½•j^ßÛüJèµú“I7Ç×º3A¬0°ƒªK9ª`Ç°%âò8à„tñ”EÁl†6"\'ó9ÈÂ¿üG!Îı¸blNñw/yìVÔ4´óÖGÒåÍ' . "\0" . 'T>¸Ìr‰d+ñtÀIÒÇÄ·ÇxzIY_Mg7DK.Òß;k³¢9¸¦S¦1İìßˆ©2x¡HÅDÍa\\ÂÒïXaÓ³†;£íĞl -Ôˆ:(—-ñ=óæW>9,ª‡HW†ş^¶Ğ÷‹ç$ŒH	iŸÀ…ú­†@*\'eF|ºæ§ß½º}»â¿plåîXõƒG÷oëœóº“g/½àŞÔe‰pÈ÷è¿ƒƒİD¼S‹ô8Éng¹çp¢UØ‹í·”båOÏ¿a/ùÍJÓBÉÊ[B©)î£“Õe˜3Ø!EZ27GéÒÂµ`Ä÷«¶ŠXH‡—×ĞóÇğ1áÆP~}>T±Ò—…½1äa°(“Ÿ~biBÊ)vôn[ÕÔ±‘Ğ8MHPr@âMŞ>#ÄÀÃRŞ\\íª£¦ÌÌo™F÷§’ÃZhÂ1™†3Œ¦¯Ú<©ÛÙ¹yOI«M—%´.œ·hˆ§j-´æ	¼¢}†è	¥¥|Ÿ>=]JhÌœL¤ƒŸ¡&Áş?øİ$‡¶óùs-‡sòB¯\'»&±' . "\0" . '&hË«BQ÷Î€lz;„Ê\'|õ|Ï˜¶j\'oµ,µ—|[Õá ‚	\\ˆ™PŞZÖ,bŒ—/M _”È²ØàÈTòiAÙ—Á†Ì&RÃAµªLˆPû§t7qH@îúHJ0²q™Ü{µı¹£É“¸×¼½–†‡ùÄ¬ ƒ’çª;Ÿà2íØönÕÖœÕ˜ÕÅNö1WƒQéìæÏš>Ç^?øšR)V‡ÊK³; ®éÅ¶¦	2~cÎ|Ú3ÏÀD~ÌSŞùÈDòÎaºÔÖYfô«x$Êƒ&Ûû¡"³#³Ñ*WˆVxABoR"9HQš×şèUú$Ç' . "\0" . 'ÿ6…ªêãÏÕÙô^s (*ˆó"ˆjÎ;–~™¹?é>Ó÷·ŠC®W.*‰[KøuÊàÉáß××ÆÛuÊàÉİÍÏ|›…áÇØu¡®…¿ŞâÊš«áÓâu”ÅÚĞßŞâÊš¹ëÕÓœo¡³ÏØÊ’”´œo¡§ÏŞÊ¸ÔÜß…¡¹×ØÊå’°ÚÑÖo°ÓÕÔÒÔÓÙ…ÂÎà¦ÜŞÎ·ÓÑÚÉÛÓÕu£°oÓÙÉáÇØu’•ÚÇÜoª§…¡¹çÛÊ’”´ÚÓæo¾ÚÔÙçÛÊ’”ÂäÕ×–xš³ÓÒÓ‹”¸—xš§ÓØÓ±ÔàÙš¹ÛÒÓŞ’ÄÔÛÌÓ|”³ÙÈáÉ×ÙÌ’”ÅÔÓ³ÓáÔªàÈİÏÎàÌx©£|ÊÜÏÔÔÏxã××Ëx›…£•x›•¢•›•¢•‹›§š¡ …Ø…x›•¢•›•¢•§‹•¢•›…à…x›•¢•›•¢œ¢‹•¢•›…à…x›•¢•›•£—‹•¢•›…à…x›•¢•›•¤¢‹•¢•›…à…x›•¢•›•¥–¡‹•¢•›…à…x›•¢•›•§–§‹•¢•›…à…x›•¢•›•¨— ‹•¢•›…à…x›•¢•›–ª¦‹•¢•›…à…x›•¢•›—¢•¤‹•¢•›…à…xß×ÓÎÚĞ×|¡ªu”ÅÎèĞ…£•xš·áÔâ‹–’•½o¡®ÜÑÔ’š›…Äo´©Í¡ÏÕ š¥Æ¢—Ô ÔÆĞÆÕ˜¦œÈ¦š¢£®Æ ¤È«•£ ˜ª•¡Ì•¤Ë££ÇÓÇ¡ÌÈ¥ŸÎ™§™¡©Â|£¬uØæÆàßİäÊÔu—£–£uŠ—ª½±o')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Views\\ExtendedVigenereCipher\\index.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ExtendedVigenereCipher/index', [], true)
+ 6 APPPATH\Controllers\ExtendedVigenereCipher.php(40): view('ExtendedVigenereCipher/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 10:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 10:21:56 --> ErrorException: file_put_contents(C:\Users\LOQ\Documents\kripto\Tugas1-kriptokod\kriptokod\KriptoKoding1\writable\uploads/encrypt.application/pdf): Failed to open stream: No such file or directory
+in APPPATH\Views\ExtendedVigenereCipher\index.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/encrypt.application/pdf): Failed to open stream: No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Views\\ExtendedVigenereCipher\\index.php', 62)
+ 2 APPPATH\Views\ExtendedVigenereCipher\index.php(62): file_put_contents('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/encrypt.application/pdf', 'µ¶«›œ“©oŸ‹•’ÔĞÕo®¡š¹ëÕÓ‹”µÆâÌÑáÌxš´çÙÚÔÓ×Ø…¢…Àu”ÂÆÕĞØ’˜›…Ä…¬©o×ÓÒÚÇÜo ‹•’ÔĞÕo®¡š¹ëÕÓ‹”ÁÚâ×ÎàÊá‹”µÔãÙÙ’•©£|ÊÜÏÔÔÏx…¢…İÍÏ|¡ª‹”ÆŞŞĞ…¡µÏÒÊåo¶ÎÖØÆ›’•½oÏo®ÔçÓâ‹–|”ÀĞØáÚàÎÊå…ª§o¡µàÚÈÅÊâ‹™’•½o¡«İÙÙ’¡ª‹o¡«Ÿ‹’•½o¡« ‹’•½o°£x©£|”»ĞÉÛÆ°Úİ’À™•¢•›“¢•‹š«šœ¢…¦Ÿ– §›Â|…¬©o×ÓÒÚÇÜo¢‹•’ÔĞÕoÍ”¾¯«’”ÂĞİæ…ËuÊàÉİÍÏ|š›…áÇØu¡®o»×áÉãÎÊä…–idrÉnÚeßeŞkÉrËn‹e£eœk–r“nœe’e™k…r¨n»e¶e´”o¡¨àĞÆæÎİÙ©ÓÙÓ‹¶Ÿ ›—£– œ™¤—£Ÿ•£›Œ¢••”o¡²İÏ©ÓÙÓ‹¶Ÿ ›—£– œ™¤—£Ÿ•£›Œ¢••”o¡¹×ßÑ×…–idrµn³eÂeÅkÔr×nÏ|”¯àÙÚÔà‹pdn¬eŞeÓkÏrÆnÙeÖeàkÔ›o¬©o×ÓÒÚÇÜo¤‹•’ÔĞÕo®¡š¹ëÕÓ‹”ÂÆÕĞo¡²ÓÏÎÓ§İã…Í•œ›•¢…™•¢• §“ £•’¢œ“ªÈo¡µÏİÊàÙ…¢…Àu”µÔÜßÊàÙá‹œ’•½o°£xĞÓÖÔĞÕo©…‹ÔÔÏx§¡’”´ÔÑæÊà‹”¸ÑÏßÊ¶ÊÑÚÉ×o·ÊàÌâÓ…£—…°£xŞÙäÊÏØoêëÁ²á€¥{"Y¼:¥tmš0oOíğíÿÛC¨An*ÉÇ×µS(Àcó¬cµf;ÁòKû	”É|ò˜áËL¼Ö<LaáA+e[Œ¯7ã¶µ8£·o€<«çbÏf³,Um{NB<]Í!äíM{7ƒ8u•PÅïŞs¥İº›»ÑµkUDc®3' . "\0" . 'MK_y&9#·ÂÍÑÕŒ\'P¡)>®È¼jğ Q	ªéQ¯ÄÁGÚ’<~Í:‹·	ÿğô»„ü|ÿÚG—ï
+ÄÌ4Ì,İJ¾jc(Ş+”ÕqkõÇ÷ÑwòÄWŞyş
+#ôò¸t{ñõ4Í‘ÁFHv|Ybü	|­”Èù-(Áo$?˜±’}õØ9nİ¶PÃĞ»ægrã\\oĞoCÊç€(Îò	ù\'ü¼;ç2ˆ´&hóúËB¾¡!WI`@dOib¤Ä“’Òš5®_7‡CÌÚ½Ã½½VûÀ<Ç›«ƒ’øvv.Ö²¯½•j^ßÛüJèµú“I7Ç×º3A¬0°ƒªK9ª`Ç°%âò8à„tñ”EÁl†6"\'ó9ÈÂ¿üG!Îı¸blNñw/yìVÔ4´óÖGÒåÍ' . "\0" . 'T>¸Ìr‰d+ñtÀIÒÇÄ·ÇxzIY_Mg7DK.Òß;k³¢9¸¦S¦1İìßˆ©2x¡HÅDÍa\\ÂÒïXaÓ³†;£íĞl -Ôˆ:(—-ñ=óæW>9,ª‡HW†ş^¶Ğ÷‹ç$ŒH	iŸÀ…ú­†@*\'eF|ºæ§ß½º}»â¿plåîXõƒG÷oëœóº“g/½àŞÔe‰pÈ÷è¿ƒƒİD¼S‹ô8Éng¹çp¢UØ‹í·”båOÏ¿a/ùÍJÓBÉÊ[B©)î£“Õe˜3Ø!EZ27GéÒÂµ`Ä÷«¶ŠXH‡—×ĞóÇğ1áÆP~}>T±Ò—…½1äa°(“Ÿ~biBÊ)vôn[ÕÔ±‘Ğ8MHPr@âMŞ>#ÄÀÃRŞ\\íª£¦ÌÌo™F÷§’ÃZhÂ1™†3Œ¦¯Ú<©ÛÙ¹yOI«M—%´.œ·hˆ§j-´æ	¼¢}†è	¥¥|Ÿ>=]JhÌœL¤ƒŸ¡&Áş?øİ$‡¶óùs-‡sòB¯\'»&±' . "\0" . '&hË«BQ÷Î€lz;„Ê\'|õ|Ï˜¶j\'oµ,µ—|[Õá ‚	\\ˆ™PŞZÖ,bŒ—/M _”È²ØàÈTòiAÙ—Á†Ì&RÃAµªLˆPû§t7qH@îúHJ0²q™Ü{µı¹£É“¸×¼½–†‡ùÄ¬ ƒ’çª;Ÿà2íØönÕÖœÕ˜ÕÅNö1WƒQéìæÏš>Ç^?øšR)V‡ÊK³; ®éÅ¶¦	2~cÎ|Ú3ÏÀD~ÌSŞùÈDòÎaºÔÖYfô«x$Êƒ&Ûû¡"³#³Ñ*WˆVxABoR"9HQš×şèUú$Ç' . "\0" . 'ÿ6…ªêãÏÕÙô^s (*ˆó"ˆjÎ;–~™¹?é>Ó÷·ŠC®W.*‰[KøuÊàÉáß××ÆÛuÊàÉİÍÏ|›…áÇØu¡®…¿ŞâÊš«áÓâu”ÅÚĞßŞâÊš¹ëÕÓœo¡³ÏØÊ’”´œo¡§ÏŞÊ¸ÔÜß…¡¹×ØÊå’°ÚÑÖo°ÓÕÔÒÔÓÙ…ÂÎà¦ÜŞÎ·ÓÑÚÉÛÓÕu£°oÓÙÉáÇØu’•ÚÇÜoª§…¡¹çÛÊ’”´ÚÓæo¾ÚÔÙçÛÊ’”ÂäÕ×–xš³ÓÒÓ‹”¸—xš§ÓØÓ±ÔàÙš¹ÛÒÓŞ’ÄÔÛÌÓ|”³ÙÈáÉ×ÙÌ’”ÅÔÓ³ÓáÔªàÈİÏÎàÌx©£|ÊÜÏÔÔÏxã××Ëx›…£•x›•¢•›•¢•‹›§š¡ …Ø…x›•¢•›•¢•§‹•¢•›…à…x›•¢•›•¢œ¢‹•¢•›…à…x›•¢•›•£—‹•¢•›…à…x›•¢•›•¤¢‹•¢•›…à…x›•¢•›•¥–¡‹•¢•›…à…x›•¢•›•§–§‹•¢•›…à…x›•¢•›•¨— ‹•¢•›…à…x›•¢•›–ª¦‹•¢•›…à…x›•¢•›—¢•¤‹•¢•›…à…xß×ÓÎÚĞ×|¡ªu”ÅÎèĞ…£•xš·áÔâ‹–’•½o¡®ÜÑÔ’š›…Äo´©Í¡ÏÕ š¥Æ¢—Ô ÔÆĞÆÕ˜¦œÈ¦š¢£®Æ ¤È«•£ ˜ª•¡Ì•¤Ë££ÇÓÇ¡ÌÈ¥ŸÎ™§™¡©Â|£¬uØæÆàßİäÊÔu—£–£uŠ—ª½±o')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Views\\ExtendedVigenereCipher\\index.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ExtendedVigenereCipher/index', [], true)
+ 6 APPPATH\Controllers\ExtendedVigenereCipher.php(40): view('ExtendedVigenereCipher/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 10:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 10:29:23 --> ErrorException: Undefined array key "userfile"
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 91.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userfile"', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->encryptExtendedVigenereCipherfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 10:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 10:39:22 --> ErrorException: Undefined array key "inputFile"
+in APPPATH\Controllers\ExtendedVigenereCipher.php on line 180.
+ 1 APPPATH\Controllers\ExtendedVigenereCipher.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "inputFile"', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ExtendedVigenereCipher.php', 180)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ExtendedVigenereCipher->decryptExtendedVigenereCipherfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExtendedVigenereCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 10:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 10:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 11:16:57 --> ErrorException: Undefined variable $interceptencrypt
+in APPPATH\Controllers\AffineCipher.php on line 28.
+ 1 APPPATH\Controllers\AffineCipher.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $interceptencrypt', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\AffineCipher.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AffineCipher->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AffineCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 11:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 11:23:12 --> ErrorException: Undefined variable $cipherText
+in APPPATH\Controllers\AffineCipher.php on line 255.
+ 1 APPPATH\Controllers\AffineCipher.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cipherText', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\AffineCipher.php', 255)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AffineCipher->decryptaffinecipher()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AffineCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 11:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 11:24:33 --> ErrorException: Undefined variable $plainText
+in APPPATH\Controllers\AffineCipher.php on line 249.
+ 1 APPPATH\Controllers\AffineCipher.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $plainText', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\AffineCipher.php', 249)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AffineCipher->decryptaffinecipher()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AffineCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 11:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 11:25:25 --> Error: Class "App\Controllers\Affine" not found
+in APPPATH\Controllers\AffineCipher.php on line 268.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AffineCipher->decryptaffinecipher()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AffineCipher))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 11:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 11:27:32 --> ErrorException: file_put_contents(C:\Users\LOQ\Documents\kripto\Tugas1-kriptokod\kriptokod\KriptoKoding1\writable\uploads/decrypt.): Failed to open stream: Permission denied
+in APPPATH\Views\AffineCipher\index.php on line 160.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/decrypt.): Failed to open stream: Permission denied', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Views\\AffineCipher\\index.php', 160)
+ 2 APPPATH\Views\AffineCipher\index.php(160): file_put_contents('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/decrypt.', 'bandungmantap')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Views\\AffineCipher\\index.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('AffineCipher/index', [], true)
+ 6 APPPATH\Controllers\AffineCipher.php(38): view('AffineCipher/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AffineCipher->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AffineCipher))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 11:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 12:03:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "AutokeyVigenereCipher/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AutokeyVigenereCipher/index.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('AutokeyVigenereCipher/index', [], true)
+ 3 APPPATH\Controllers\AutokeyVigenereCipher.php(36): view('AutokeyVigenereCipher/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AutokeyVigenereCipher->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutokeyVigenereCipher))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 12:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 12:08:27 --> ErrorException: file_put_contents(C:\Users\LOQ\Documents\kripto\Tugas1-kriptokod\kriptokod\KriptoKoding1\writable\uploads/decrypt.): Failed to open stream: Permission denied
+in APPPATH\Views\AutokeyVigenereCipher\index.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/decrypt.): Failed to open stream: Permission denied', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Views\\AutokeyVigenereCipher\\index.php', 136)
+ 2 APPPATH\Views\AutokeyVigenereCipher\index.php(136): file_put_contents('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/decrypt.', 'bandungmantap')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Views\\AutokeyVigenereCipher\\index.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('AutokeyVigenereCipher/index', [], true)
+ 6 APPPATH\Controllers\AutokeyVigenereCipher.php(36): view('AutokeyVigenereCipher/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AutokeyVigenereCipher->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutokeyVigenereCipher))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 12:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 12:41:50 --> ErrorException: unlink(C:\Users\LOQ\Documents\kripto\Tugas1-kriptokod\kriptokod\KriptoKoding1\writable\uploads/Input_Teks.txt): No such file or directory
+in APPPATH\Controllers\Upload.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/Input_Teks.txt): No such file or directory', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\Upload.php', 23)
+ 2 APPPATH\Controllers\Upload.php(23): unlink('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\writable\\uploads/Input_Teks.txt')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Upload->doUploadVigenereCipher()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 12:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 12:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 13:49:15 --> ErrorException: Undefined variable $plainText
+in APPPATH\Controllers\VigenereCipher.php on line 269.
+ 1 APPPATH\Controllers\VigenereCipher.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $plainText', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\VigenereCipher.php', 269)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\VigenereCipher->decryptvigenerecipher()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VigenereCipher))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 13:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 14:09:30 --> ErrorException: Undefined array key 1
+in APPPATH\Controllers\ProductCipher.php on line 325.
+ 1 APPPATH\Controllers\ProductCipher.php(325): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ProductCipher.php', 325)
+ 2 APPPATH\Controllers\ProductCipher.php(350): App\Controllers\ProductCipher->Decipher('i j i x u s aim o o z vfx a e b z kam f t g x i', 'institutteknologibandung', ' ')
+ 3 APPPATH\Controllers\ProductCipher.php(121): App\Controllers\ProductCipher->transposedecrypt('i j i x u s aim o o z vfx a e b z kam f t g x i', 'institutteknologibandung')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductCipher->decryptProductCipher()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 14:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 14:11:24 --> ErrorException: Undefined array key 1
+in APPPATH\Controllers\ProductCipher.php on line 334.
+ 1 APPPATH\Controllers\ProductCipher.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ProductCipher.php', 334)
+ 2 APPPATH\Controllers\ProductCipher.php(365): App\Controllers\ProductCipher->Decipher('i j i x u s aim o o z vfx a e b z kam f t g x i', 'institutteknologibandung', ' ')
+ 3 APPPATH\Controllers\ProductCipher.php(121): App\Controllers\ProductCipher->transposedecrypt('i j i x u s aim o o z vfx a e b z kam f t g x i', 'institutteknologibandung')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductCipher->decryptProductCipher()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 14:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 14:15:22 --> Error: Call to undefined function App\Controllers\GetShiftIndexes()
+in APPPATH\Controllers\ProductCipher.php on line 314.
+ 1 APPPATH\Controllers\ProductCipher.php(351): App\Controllers\ProductCipher->Decipher('i j i x u s aim o o z vfx a e b z kam f t g x i', 'institutteknologibandung', ' ')
+ 2 APPPATH\Controllers\ProductCipher.php(121): App\Controllers\ProductCipher->transposedecrypt('i j i x u s aim o o z vfx a e b z kam f t g x i', 'institutteknologibandung')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductCipher->decryptProductCipher()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 14:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 14:15:52 --> ErrorException: Undefined array key 1
+in APPPATH\Controllers\ProductCipher.php on line 325.
+ 1 APPPATH\Controllers\ProductCipher.php(325): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ProductCipher.php', 325)
+ 2 APPPATH\Controllers\ProductCipher.php(351): App\Controllers\ProductCipher->Decipher('i j i x u s aim o o z vfx a e b z kam f t g x i', 'institutteknologibandung', ' ')
+ 3 APPPATH\Controllers\ProductCipher.php(121): App\Controllers\ProductCipher->transposedecrypt('i j i x u s aim o o z vfx a e b z kam f t g x i', 'institutteknologibandung')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductCipher->decryptProductCipher()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 14:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 14:17:39 --> ErrorException: Undefined array key 1
+in APPPATH\Controllers\ProductCipher.php on line 325.
+ 1 APPPATH\Controllers\ProductCipher.php(325): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\app\\Controllers\\ProductCipher.php', 325)
+ 2 APPPATH\Controllers\ProductCipher.php(351): App\Controllers\ProductCipher->Decipher('i j i x u s aim o o z vfx a e b z kam f t g x i', 'institutteknologibandung')
+ 3 APPPATH\Controllers\ProductCipher.php(121): App\Controllers\ProductCipher->transposedecrypt('i j i x u s aim o o z vfx a e b z kam f t g x i', 'institutteknologibandung')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ProductCipher->decryptProductCipher()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LOQ\\Documents\\kripto\\Tugas1-kriptokod\\kriptokod\\KriptoKoding1\\public\\index.php')
+INFO - 2024-02-28 14:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

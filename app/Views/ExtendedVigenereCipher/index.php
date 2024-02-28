@@ -25,15 +25,11 @@
             <button type="submit" class="btn btn-primary" name="submit">Encrypt</button>
         </form>
 
-        <form action="<?= base_url('upload/doUploadExtendedVigenereCipher') ?>" method="post" enctype="multipart/form-data" id="formFile">
-            <div class="form-group mb-3" id="inputFile">
+        <form action="<?= base_url('ExtendedVigenereCipher/encryptExtendedVigenereCipherfile') ?>" method="post" enctype="multipart/form-data" id="formFile">
+            <div class="form-group" id="inputFile" style="margin-bottom: 30px;">
                 <label for="inputFile">Input File:</label>
-                <input type="file" class="form-control" id="inputFile" name="inputFile">
+                <input type="file" class="form-control-file" id="inputFile" name="inputFile">
             </div>
-            <button type="submit" class="btn btn-primary mb-3" name="submit">Simpan File</button>
-        </form>
-
-        <form action="<?= base_url('ExtendedVigenereCipher/encryptExtendedVigenereCipherfile') ?>" method="post" enctype="multipart/form-data" id="formFile1">
             <div class="form-group">
                 <label for="kunci">Kunci:</label>
                 <input type="text" class="form-control" id="kunci" name="kunci">
@@ -60,12 +56,12 @@
             </p>
             <?php
             // Simpan cipherText ke dalam file txt
-            $filename = 'encrypt.txt';
+            $filename = 'encrypt.' . $tipeFile; // Menggunakan ekstensi yang sesuai dengan $tipeFile
             $filepath = WRITEPATH . 'uploads/' . $filename; // Ubah path sesuai dengan lokasi yang Anda inginkan
             file_put_contents($filepath, $cipherText);
             ?>
             <p>
-                <a href="<?= base_url('download/file/encrypt.txt') ?>">Download File</a>
+                <a href="<?= base_url('download/file/' . $filename) ?>">Download File</a>
             </p>
         <?php else : ?>
             <p>
@@ -101,18 +97,15 @@
             <button type="submit" class="btn btn-primary" name="submit">Decrypt</button>
         </form>
 
-        <form action="<?= base_url('upload/doUploadExtendedVigenereCipher') ?>" method="post" enctype="multipart/form-data" id="formFileDecrypt">
-            <div class="form-group mb-3" id="inputFile">
-                <label for="inputFile">Input File:</label>
-                <input type="file" class="form-control" id="inputFileDecrypt" name="inputFile">
-            </div>
-            <button type="submit" class="btn btn-primary mb-3" name="submit">Simpan File</button>
-        </form>
 
-        <form action="<?= base_url('ExtendedVigenereCipher/decryptExtendedVigenereCipherfile') ?>" method="post" enctype="multipart/form-data" id="formFile1Decrypt">
+        <form action="<?= base_url('ExtendedVigenereCipher/decryptExtendedVigenereCipherfile') ?>" method="post" enctype="multipart/form-data" id="formFileDecrypt">
+            <div class="form-group" id="inputFileDecrypt" style="margin-bottom: 30px;">
+                <label for="inputFileDecrypt">Input File:</label>
+                <input type="file" class="form-control-file" id="inputFileDecrypt" name="inputFileDecrypt">
+            </div>
             <div class="form-group">
                 <label for="kunci">Kunci:</label>
-                <input type="text" class="form-control" id="kunciDecrypt" name="kunci">
+                <input type="text" class="form-control" id="kunci" name="kunci">
             </div>
             <button type="submit" class="btn btn-primary" name="submit">Decrypt</button>
         </form>
@@ -137,12 +130,12 @@
             </p>
             <?php
             // Simpan cipherText ke dalam file txt
-            $filename = 'decrypt.txt';
+            $filename = 'decrypt.' . $tipeFile; // Menggunakan ekstensi yang sesuai dengan $tipeFile
             $filepath = WRITEPATH . 'uploads/' . $filename; // Ubah path sesuai dengan lokasi yang Anda inginkan
             file_put_contents($filepath, $plainText);
             ?>
             <p>
-                <a href="<?= base_url('download/file/decrypt.txt') ?>">Download File</a>
+                <a href="<?= base_url('download/file/' . $filename) ?>">Download File</a>
             </p>
         <?php else : ?>
             <p>
