@@ -22,7 +22,7 @@
 
      <!-- Nav Item - Dashboard -->
      <li class="nav-item">
-         <a class="nav-link" href="<?= base_url('PlayfairCipher'); ?>">
+         <a class="nav-link" href="<?= base_url('ExtendedVigenereCipher'); ?>">
              <i class="fas fa-fw fa-table"></i>
              <span>Extended Viginere Cipher </span></a>
      </li>

@@ -10,11 +10,19 @@ class PlayfairCipher extends BaseController
     {
         $cipherText = null;
         $plainText = null;
+        $plainTextencrypt = null;
+        $cipherTextdecrypt = null;
+        $keyencrypt = null;
+        $keydecrypt = null;
 
         $data = [
             'judul' => 'Playfair Cipher',
             'cipherText' => session()->getFlashdata('cipherText') ?? $cipherText,
             'plainText' => session()->getFlashdata('plainText') ?? $plainText,
+            'plainTextencrypt' => session()->getFlashdata('plainTextencrypt') ?? $plainTextencrypt,
+            'cipherTextdecrypt' => session()->getFlashdata('cipherTextdecrypt') ?? $cipherTextdecrypt,
+            'keyencrypt' => session()->getFlashdata('keyencrypt') ?? $keyencrypt,
+            'keydecrypt' => session()->getFlashdata('keydecrypt') ?? $keydecrypt,
         ];
 
         return view('templates/v_header', $data) .
@@ -29,6 +37,7 @@ class PlayfairCipher extends BaseController
         // Tentukan path ke file teks
         $filePath = WRITEPATH . 'uploads/Input_Teks.txt';
         $key = $this->request->getPost('kunci') ?? '';
+        session()->setFlashdata('keyencrypt', $key);
 
         // Periksa apakah file ada dan dapat dibaca
         if (file_exists($filePath)) {
@@ -40,6 +49,7 @@ class PlayfairCipher extends BaseController
         }
 
         $plainText =  $fileContent;
+        session()->setFlashdata('plainTextencrypt', $plainText);
 
         // Generate Playfair matrix
         $matrix = $this->generateMatrix($key);
@@ -64,24 +74,9 @@ class PlayfairCipher extends BaseController
 
 
         $plainText = $this->request->getPost('inputText') ?? '';
+        session()->setFlashdata('plainTextencrypt', $plainText);
         $key = $this->request->getPost('kunci') ?? '';
-
-        // Validate input
-        if (empty($plainText) || empty($key)) {
-            // Tentukan path ke file teks
-            $filePath = WRITEPATH . 'uploads/Input_Teks.txt';
-
-            // Periksa apakah file ada dan dapat dibaca
-            if (file_exists($filePath)) {
-                // Baca isi file teks dan simpan ke dalam variabel string
-                $fileContent = file_get_contents($filePath);
-            } else {
-                // Tindakan jika file tidak ditemukan
-                echo 'File not found.';
-            }
-
-            $plainText =  $fileContent;
-        }
+        session()->setFlashdata('keyencrypt', $key);
 
         // Generate Playfair matrix
         $matrix = $this->generateMatrix($key);
@@ -165,10 +160,50 @@ class PlayfairCipher extends BaseController
         return $cipherChar1 . $cipherChar2;
     }
 
+    public function decryptPlayfairCipherfile()
+    {
+        // Tentukan path ke file teks
+        $filePath = WRITEPATH . 'uploads/Input_Teks.txt';
+        $key = $this->request->getPost('kunci') ?? '';
+        session()->setFlashdata('keydecrypt', $key);
+
+        // Periksa apakah file ada dan dapat dibaca
+        if (file_exists($filePath)) {
+            // Baca isi file teks dan simpan ke dalam variabel string
+            $fileContent = file_get_contents($filePath);
+        } else {
+            // Tindakan jika file tidak ditemukan
+            echo 'File not found.';
+        }
+
+        $cipherText =  $fileContent;
+        session()->setFlashdata('cipherTextdecrypt', $cipherText);
+
+        // Generate Playfair matrix
+        $matrix = $this->generateMatrix($key);
+
+        // Prepare ciphertext
+        $pairs = $this->prepareCipherText($cipherText);
+        
+        // Decrypt ciphertext
+        $plainText = '';
+        foreach ($pairs as $pair) {
+            $plainText .= $this->decryptPair($pair, $matrix);
+        }
+        
+        // Store decrypted text in flashdata
+        session()->setFlashdata('plainText', $plainText);
+        
+        return redirect()->to('/PlayfairCipher');;
+    }
+
+
     public function decryptPlayfairCipher()
     {
         $cipherText = $this->request->getPost('inputTextDecrypt') ?? '';
         $key = $this->request->getPost('kunciDecrypt') ?? '';
+        session()->setFlashdata('keydecrypt', $key);
+        session()->setFlashdata('cipherTextdecrypt', $cipherText);
 
         // Validate input
         if (empty($cipherText) || empty($key)) {

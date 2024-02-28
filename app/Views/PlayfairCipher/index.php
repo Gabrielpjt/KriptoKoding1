@@ -25,7 +25,7 @@
             <button type="submit" class="btn btn-primary" name="submit">Encrypt</button>
         </form>
 
-        <form action="<?= base_url('upload/doUpload') ?>" method="post" enctype="multipart/form-data" id="formFile">
+        <form action="<?= base_url('upload/doUploadPlayfairCipher') ?>" method="post" enctype="multipart/form-data" id="formFile">
             <div class="form-group" id="inputFile" style="margin-bottom: 30px;">
                 <label for="inputFile">Input File:</label>
                 <input type="file" class="form-control" id="inputFile" name="inputFile">
@@ -33,7 +33,7 @@
             <button type="submit" class="btn btn-primary" name="submit">Simpan File</button>
         </form>
 
-        <form action="<?= base_url('PlayfairCipher/encryptPlayfairCipherfile') ?>" method="post" enctype="multipart/form-data" id="formFile1" style="display: none;">
+        <form action="<?= base_url('PlayfairCipher/encryptPlayfairCipherfile') ?>" method="post" enctype="multipart/form-data" id="formFile1">
             <div class="form-group">
                 <label for="kunci">Kunci:</label>
                 <input type="text" class="form-control" id="kunci" name="kunci">
@@ -44,6 +44,15 @@
 
     <!-- Output Section -->
     <div class="mt-4">
+        <label>PlainText:</label>
+        <p>
+            <strong><?= $plainTextencrypt ?></strong>
+        </p>
+
+        <label>Kunci:</label>
+        <p>
+            <strong><?= $keyencrypt ?></strong>
+        </p>
         <label>Hasil Encrypt:</label>
         <?php if (isset($cipherText)) : ?>
             <p>
@@ -70,23 +79,20 @@
 
 <div class="container-fluid mt-5">
     <h1 class="h3 mb-4 text-gray-800"><?= $judul ?> (Decrypt)</h1>
-    <!-- Begin Page Content -->
+    
     <div class="container-fluid">
-        <!-- Form untuk pencarian -->
-        <form action="<?= base_url('PlayfairCipher/decryptPlayfairCipher') ?>" method="post">
-            <div class="form-group">
-                <label for="tipeInputDecrypt">Input Type</label>
-                <select class="form-control" id="tipeInputDecrypt" name="tipeInputDecrypt">
-                    <option value="text">Text</option>
-                </select>
-            </div>
+        <div class="form-group">
+            <label for="tipeInputDecrypt">Input Type</label>
+            <select class="form-control" id="tipeInputDecrypt" name="tipeInputDecrypt">
+                <option value="plaintext">File Plaintext</option>
+                <option value="text">Text</option>
+            </select>
+        </div>
+
+        <form action="<?= base_url('PlayfairCipher/decryptPlayfairCipher') ?>" method="post" enctype="multipart/form-data" id="formTextDecrypt" style="display: none;">
             <div class="form-group" id="inputTextDecrypt" style="margin-bottom: 30px;">
                 <label for="inputTextDecrypt">Input Teks:</label>
                 <input type="text" class="form-control" id="inputTextDecrypt" name="inputTextDecrypt" style="height: 60px;">
-            </div>
-            <div class="form-group" id="inputFileDecrypt" style="display: none;">
-                <label for="inputFileDecrypt">Input File:</label>
-                <input type="file" class="form-control" id="inputFileDecrypt" name="inputFileDecrypt">
             </div>
             <div class="form-group">
                 <label for="kunciDecrypt">Kunci:</label>
@@ -94,10 +100,35 @@
             </div>
             <button type="submit" class="btn btn-primary" name="submit">Decrypt</button>
         </form>
+
+        <form action="<?= base_url('upload/doUploadPlayfairCipher') ?>" method="post" enctype="multipart/form-data" id="formFileDecrypt">
+            <div class="form-group" id="inputFile" style="margin-bottom: 30px;">
+                <label for="inputFile">Input File:</label>
+                <input type="file" class="form-control" id="inputFileDecrypt" name="inputFile">
+            </div>
+            <button type="submit" class="btn btn-primary" name="submit">Simpan File</button>
+        </form>
+
+        <form action="<?= base_url('PlayfairCipher/decryptPlayfairCipherfile') ?>" method="post" enctype="multipart/form-data" id="formFile1Decrypt">
+            <div class="form-group">
+                <label for="kunci">Kunci:</label>
+                <input type="text" class="form-control" id="kunciDecrypt" name="kunci">
+            </div>
+            <button type="submit" class="btn btn-primary" name="submit">Decrypt</button>
+        </form>
     </div>
 
     <!-- Output Section -->
     <div class="mt-4">
+        <label>Cipher Text:</label>
+        <p>
+            <strong><?= $cipherTextdecrypt ?></strong>
+        </p>
+
+        <label>Kunci:</label>
+        <p>
+            <strong><?= $keydecrypt ?></strong>
+        </p>
         <label>Hasil Decrypt:</label>
         <!-- Tempat untuk menampilkan output -->
         <?php if (isset($plainText)) : ?>
@@ -136,14 +167,12 @@
             document.getElementById('formText').style.display = 'block';
             document.getElementById('formFile').style.display = 'none';
             document.getElementById('formFile1').style.display = 'none';
-            document.getElementById('kunci').style.display = 'block';
 
         } else {
             inputText.style.display = 'none';
             inputFile.style.display = 'block';
             document.getElementById('formText').style.display = 'none';
             document.getElementById('formFile').style.display = 'block';
-            document.getElementById('formFile1').style.display = 'block';
             document.getElementById('formFile1').style.display = 'block';
 
         }
@@ -157,9 +186,15 @@
         if (selectedValue === 'text') {
             inputTextDecrypt.style.display = 'block';
             inputFileDecrypt.style.display = 'none';
+            document.getElementById('formTextDecrypt').style.display = 'block';
+            document.getElementById('formFileDecrypt').style.display = 'none';
+            document.getElementById('formFile1Decrypt').style.display = 'none';
         } else {
             inputTextDecrypt.style.display = 'none';
             inputFileDecrypt.style.display = 'block';
+            document.getElementById('formTextDecrypt').style.display = 'none';
+            document.getElementById('formFileDecrypt').style.display = 'block';
+            document.getElementById('formFile1Decrypt').style.display = 'block';
         }
     });
 </script>
