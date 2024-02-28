@@ -18,12 +18,12 @@ class Upload extends BaseController
         if ($file && $file->isValid()) {
             // Ubah nama file
             $newName = 'Input_Teks.txt';
-            
+
             // Pindahkan file ke folder yang ditentukan (misalnya, folder writable)
-            if (unlink(WRITEPATH . 'uploads/Input_Teks.txt')){
+            if (unlink(WRITEPATH . 'uploads/Input_Teks.txt')) {
                 if ($file->move(WRITEPATH . 'uploads', $newName)) {
                     // Jika file berhasil diunggah, tampilkan pesan sukses
-                    return redirect()->to('/ProductCipher');
+                    return redirect()->to('/VigenereCipher');
                 } else {
                     // Jika terjadi kesalahan saat memindahkan file, tampilkan pesan kesalahan
                     echo 'Gagal memindahkan file.';
@@ -35,7 +35,7 @@ class Upload extends BaseController
         }
     }
 
-    public function doUploadExtendedCipher()
+    public function doUploadExtendedVigenereCipher()
     {
         // Ambil file yang diunggah
         $file = $this->request->getFile('inputFile');
@@ -44,12 +44,12 @@ class Upload extends BaseController
         if ($file && $file->isValid()) {
             // Ubah nama file
             $newName = 'Input_Teks.txt';
-            
+
             // Pindahkan file ke folder yang ditentukan (misalnya, folder writable)
-            if (unlink(WRITEPATH . 'uploads/Input_Teks.txt')){
+            if (unlink(WRITEPATH . 'uploads/Input_Teks.txt')) {
                 if ($file->move(WRITEPATH . 'uploads', $newName)) {
                     // Jika file berhasil diunggah, tampilkan pesan sukses
-                    return redirect()->to('/ProductCipher');
+                    return redirect()->to('/ExtendedVigenereCipher');
                 } else {
                     // Jika terjadi kesalahan saat memindahkan file, tampilkan pesan kesalahan
                     echo 'Gagal memindahkan file.';
@@ -70,9 +70,9 @@ class Upload extends BaseController
         if ($file && $file->isValid()) {
             // Ubah nama file
             $newName = 'Input_Teks.txt';
-            
+
             // Pindahkan file ke folder yang ditentukan (misalnya, folder writable)
-            if (unlink(WRITEPATH . 'uploads/Input_Teks.txt')){
+            if (unlink(WRITEPATH . 'uploads/Input_Teks.txt')) {
                 if ($file->move(WRITEPATH . 'uploads', $newName)) {
                     // Jika file berhasil diunggah, tampilkan pesan sukses
                     return redirect()->to('/PlayfairCipher');
@@ -96,9 +96,9 @@ class Upload extends BaseController
         if ($file && $file->isValid()) {
             // Ubah nama file
             $newName = 'Input_Teks.txt';
-            
+
             // Pindahkan file ke folder yang ditentukan (misalnya, folder writable)
-            if (unlink(WRITEPATH . 'uploads/Input_Teks.txt')){
+            if (unlink(WRITEPATH . 'uploads/Input_Teks.txt')) {
                 if ($file->move(WRITEPATH . 'uploads', $newName)) {
                     // Jika file berhasil diunggah, tampilkan pesan sukses
                     return redirect()->to('/ProductCipher');
@@ -112,5 +112,4 @@ class Upload extends BaseController
             echo 'File gagal diunggah.';
         }
     }
-
 }

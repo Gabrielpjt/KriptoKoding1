@@ -176,3 +176,146 @@ INFO - 2024-02-28 01:49:01 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-02-28 01:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-02-28 01:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-02-28 01:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-28 02:19:30 --> [DEPRECATED] Implicit conversion from float 0.2 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 282.
+ 1 APPPATH/Controllers/ProductCipher.php(344): App\Controllers\ProductCipher->Encipher('aidehagkeh', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(56): App\Controllers\ProductCipher->transposeencrypt('aidehagkeh', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->encryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 02:19:30 --> [DEPRECATED] Implicit conversion from float 0.4 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 282.
+ 1 APPPATH/Controllers/ProductCipher.php(344): App\Controllers\ProductCipher->Encipher('aidehagkeh', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(56): App\Controllers\ProductCipher->transposeencrypt('aidehagkeh', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->encryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 02:19:30 --> [DEPRECATED] Implicit conversion from float 0.6 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 282.
+ 1 APPPATH/Controllers/ProductCipher.php(344): App\Controllers\ProductCipher->Encipher('aidehagkeh', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(56): App\Controllers\ProductCipher->transposeencrypt('aidehagkeh', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->encryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 02:19:30 --> [DEPRECATED] Implicit conversion from float 0.8 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 282.
+ 1 APPPATH/Controllers/ProductCipher.php(344): App\Controllers\ProductCipher->Encipher('aidehagkeh', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(56): App\Controllers\ProductCipher->transposeencrypt('aidehagkeh', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->encryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 02:19:30 --> [DEPRECATED] Implicit conversion from float 1.2 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 282.
+ 1 APPPATH/Controllers/ProductCipher.php(344): App\Controllers\ProductCipher->Encipher('aidehagkeh', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(56): App\Controllers\ProductCipher->transposeencrypt('aidehagkeh', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->encryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 02:19:30 --> [DEPRECATED] Implicit conversion from float 1.4 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 282.
+ 1 APPPATH/Controllers/ProductCipher.php(344): App\Controllers\ProductCipher->Encipher('aidehagkeh', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(56): App\Controllers\ProductCipher->transposeencrypt('aidehagkeh', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->encryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 02:19:30 --> [DEPRECATED] Implicit conversion from float 1.6 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 282.
+ 1 APPPATH/Controllers/ProductCipher.php(344): App\Controllers\ProductCipher->Encipher('aidehagkeh', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(56): App\Controllers\ProductCipher->transposeencrypt('aidehagkeh', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->encryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 02:19:30 --> [DEPRECATED] Implicit conversion from float 1.8 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 282.
+ 1 APPPATH/Controllers/ProductCipher.php(344): App\Controllers\ProductCipher->Encipher('aidehagkeh', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(56): App\Controllers\ProductCipher->transposeencrypt('aidehagkeh', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->encryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 02:19:30 --> [DEPRECATED] Implicit conversion from float 0.5 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 297.
+ 1 APPPATH/Controllers/ProductCipher.php(344): App\Controllers\ProductCipher->Encipher('aidehagkeh', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(56): App\Controllers\ProductCipher->transposeencrypt('aidehagkeh', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->encryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 02:19:30 --> [DEPRECATED] Implicit conversion from float 1.5 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 297.
+ 1 APPPATH/Controllers/ProductCipher.php(344): App\Controllers\ProductCipher->Encipher('aidehagkeh', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(56): App\Controllers\ProductCipher->transposeencrypt('aidehagkeh', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->encryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 02:19:30 --> [DEPRECATED] Implicit conversion from float 2.5 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 297.
+ 1 APPPATH/Controllers/ProductCipher.php(344): App\Controllers\ProductCipher->Encipher('aidehagkeh', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(56): App\Controllers\ProductCipher->transposeencrypt('aidehagkeh', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->encryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 02:19:30 --> [DEPRECATED] Implicit conversion from float 3.5 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 297.
+ 1 APPPATH/Controllers/ProductCipher.php(344): App\Controllers\ProductCipher->Encipher('aidehagkeh', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(56): App\Controllers\ProductCipher->transposeencrypt('aidehagkeh', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->encryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 02:19:30 --> [DEPRECATED] Implicit conversion from float 4.5 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 297.
+ 1 APPPATH/Controllers/ProductCipher.php(344): App\Controllers\ProductCipher->Encipher('aidehagkeh', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(56): App\Controllers\ProductCipher->transposeencrypt('aidehagkeh', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->encryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+INFO - 2024-02-28 02:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 02:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

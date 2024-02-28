@@ -28,7 +28,7 @@ class ExtendedVigenereCipher extends BaseController
     return view('templates/v_header', $data) .
       view('templates/v_sidebar') .
       view('templates/v_topbar') .
-      view('VigenereCipher/index', $data) . // Mengirimkan data ke view VigenereCipher/index
+      view('ExtendedVigenereCipher/index', $data) . // Mengirimkan data ke view VigenereCipher/index
       view('templates/v_footer');
   }
 
