@@ -30,6 +30,5 @@ $routes->get('download/file/(:any)', 'Download::file/$1');
 $routes->get('upload', 'Upload::index');
 $routes->post('upload/doUploadPlayfairCipher', 'Upload::doUploadPlayfairCipher');
 $routes->post('upload/doUploadProductCipher', 'Upload::doUploadProductCipher');
-$routes->post('upload/doUploadVigenereCipher', 'Upload::doUploadProductCipher');
-$routes->post('upload/doUploadVigenereCipher', 'Upload::doUploadProductCipher');
-
+$routes->post('upload/doUploadVigenereCipher', 'Upload::doUploadVigenereCipher');
+$routes->post('upload/doUploadExtendedCipher', 'Upload::doUploadExtendedCipher');

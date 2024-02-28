@@ -14,3 +14,165 @@ INFO - 2024-02-28 00:39:42 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2024-02-28 00:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-02-28 00:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-02-28 00:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 01:21:42 --> ErrorException: Undefined array key 9
+in APPPATH/Controllers/VigenereCipher.php on line 152.
+ 1 APPPATH/Controllers/VigenereCipher.php(152): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\VigenereCipher->encryptvigenerecipher()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+INFO - 2024-02-28 01:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-02-28 01:28:49 --> [DEPRECATED] Implicit conversion from float 0.3333333333333333 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 320.
+ 1 APPPATH/Controllers/ProductCipher.php(350): App\Controllers\ProductCipher->Decipher('aidehagkeh
+', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(102): App\Controllers\ProductCipher->transposedecrypt('aidehagkeh
+', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->decryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 01:28:49 --> [DEPRECATED] Implicit conversion from float 0.6666666666666666 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 320.
+ 1 APPPATH/Controllers/ProductCipher.php(350): App\Controllers\ProductCipher->Decipher('aidehagkeh
+', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(102): App\Controllers\ProductCipher->transposedecrypt('aidehagkeh
+', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->decryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 01:28:49 --> [DEPRECATED] Implicit conversion from float 1.3333333333333333 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 320.
+ 1 APPPATH/Controllers/ProductCipher.php(350): App\Controllers\ProductCipher->Decipher('aidehagkeh
+', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(102): App\Controllers\ProductCipher->transposedecrypt('aidehagkeh
+', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->decryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 01:28:49 --> [DEPRECATED] Implicit conversion from float 1.6666666666666667 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 320.
+ 1 APPPATH/Controllers/ProductCipher.php(350): App\Controllers\ProductCipher->Decipher('aidehagkeh
+', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(102): App\Controllers\ProductCipher->transposedecrypt('aidehagkeh
+', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->decryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 01:28:49 --> [DEPRECATED] Implicit conversion from float 2.3333333333333335 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 320.
+ 1 APPPATH/Controllers/ProductCipher.php(350): App\Controllers\ProductCipher->Decipher('aidehagkeh
+', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(102): App\Controllers\ProductCipher->transposedecrypt('aidehagkeh
+', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->decryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 01:28:49 --> [DEPRECATED] Implicit conversion from float 2.6666666666666665 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 320.
+ 1 APPPATH/Controllers/ProductCipher.php(350): App\Controllers\ProductCipher->Decipher('aidehagkeh
+', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(102): App\Controllers\ProductCipher->transposedecrypt('aidehagkeh
+', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->decryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+WARNING - 2024-02-28 01:28:49 --> [DEPRECATED] Implicit conversion from float 3.3333333333333335 to int loses precision in APPPATH/Controllers/ProductCipher.php on line 320.
+ 1 APPPATH/Controllers/ProductCipher.php(350): App\Controllers\ProductCipher->Decipher('aidehagkeh
+', 'test ', ' ')
+ 2 APPPATH/Controllers/ProductCipher.php(102): App\Controllers\ProductCipher->transposedecrypt('aidehagkeh
+', 'test ')
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->decryptProductCipherfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductCipher))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+CRITICAL - 2024-02-28 01:28:49 --> ErrorException: Undefined array key 2
+in APPPATH/Controllers/ProductCipher.php on line 325.
+ 1 APPPATH/Controllers/ProductCipher.php(325): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/ProductCipher.php(350): App\Controllers\ProductCipher->Decipher()
+ 3 APPPATH/Controllers/ProductCipher.php(102): App\Controllers\ProductCipher->transposedecrypt()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\ProductCipher->decryptProductCipherfile()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+INFO - 2024-02-28 01:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 01:29:06 --> ErrorException: Undefined array key 9
+in APPPATH/Controllers/VigenereCipher.php on line 232.
+ 1 APPPATH/Controllers/VigenereCipher.php(232): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\VigenereCipher->decryptVigenereCipherfile()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+INFO - 2024-02-28 01:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-28 01:29:36 --> ErrorException: Undefined array key 9
+in APPPATH/Controllers/VigenereCipher.php on line 232.
+ 1 APPPATH/Controllers/VigenereCipher.php(232): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\VigenereCipher->decryptVigenereCipherfile()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/sericy/Desktop/sem-6/kripto/tugas-1/KriptoKoding1/public/index.php')
+INFO - 2024-02-28 01:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 01:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

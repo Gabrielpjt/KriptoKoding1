@@ -8,7 +8,7 @@
         <div class="form-group">
             <label for="tipeInput">Input Type</label>
             <select class="form-control" id="tipeInput" name="tipeInput">
-                <option value="plaintext">File Plaintext</option>
+                <option value="plaintext">Plaintext File</option>
                 <option value="text">Text</option>
             </select>
         </div>
@@ -26,11 +26,11 @@
         </form>
 
         <form action="<?= base_url('upload/doUploadVigenereCipher') ?>" method="post" enctype="multipart/form-data" id="formFile">
-            <div class="form-group" id="inputFile" style="margin-bottom: 30px;">
+            <div class="form-group mb-3" id="inputFile">
                 <label for="inputFile">Input File:</label>
-                <input type="file" class="form-control" id="inputFile" name="inputFile">
+                <input type="file" class="form-control" id="inputFile" name="inputFile" accept=".txt">
             </div>
-            <button type="submit" class="btn btn-primary" name="submit">Simpan File</button>
+            <button type="submit" class="btn btn-primary mb-3" name="submit">Simpan File</button>
         </form>
 
         <form action="<?= base_url('VigenereCipher/encryptVigenereCipherfile') ?>" method="post" enctype="multipart/form-data" id="formFile1">
@@ -44,17 +44,17 @@
 
     <!-- Output Section -->
     <div class="mt-4">
-        <label>PlainText:</label>
-        <p>
-            <strong><?= $plainTextencrypt ?></strong>
-        </p>
-
-        <label>Kunci:</label>
-        <p>
-            <strong><?= $keyencrypt ?></strong>
-        </p>
-        <label>Hasil Encrypt:</label>
         <?php if (isset($cipherText)) : ?>
+            <label>PlainText:</label>
+            <p>
+                <strong><?= $plainTextencrypt ?></strong>
+            </p>
+
+            <label>Kunci:</label>
+            <p>
+                <strong><?= $keyencrypt ?></strong>
+            </p>
+            <label>Hasil Encrypt:</label>
             <p>
                 <strong><?= $cipherText ?></strong>
             </p>
@@ -65,9 +65,9 @@
             file_put_contents($filepath, $cipherText);
             ?>
             <p>
-            <a href="<?= base_url('download/file/encrypt.txt') ?>">Download File</a>
+                <a href="<?= base_url('download/file/encrypt.txt') ?>">Download File</a>
             </p>
-        <?php else : ?> 
+        <?php else : ?>
             <p>
                 <strong>Please input some text</strong>
             </p>
@@ -79,12 +79,12 @@
 
 <div class="container-fluid mt-5">
     <h1 class="h3 mb-4 text-gray-800"><?= $judul ?> (Decrypt)</h1>
-    
+
     <div class="container-fluid">
         <div class="form-group">
             <label for="tipeInputDecrypt">Input Type</label>
             <select class="form-control" id="tipeInputDecrypt" name="tipeInputDecrypt">
-                <option value="plaintext">File Plaintext</option>
+                <option value="plaintext">Plaintext File</option>
                 <option value="text">Text</option>
             </select>
         </div>
@@ -102,11 +102,11 @@
         </form>
 
         <form action="<?= base_url('upload/doUploadVigenereCipher') ?>" method="post" enctype="multipart/form-data" id="formFileDecrypt">
-            <div class="form-group" id="inputFile" style="margin-bottom: 30px;">
+            <div class="form-group mb-3" id="inputFile">
                 <label for="inputFile">Input File:</label>
-                <input type="file" class="form-control" id="inputFileDecrypt" name="inputFile">
+                <input type="file" class="form-control" id="inputFileDecrypt" name="inputFile" accept=".txt">
             </div>
-            <button type="submit" class="btn btn-primary" name="submit">Simpan File</button>
+            <button type="submit" class="btn btn-primary mb-3" name="submit">Simpan File</button>
         </form>
 
         <form action="<?= base_url('VigenereCipher/decryptVigenereCipherfile') ?>" method="post" enctype="multipart/form-data" id="formFile1Decrypt">
@@ -120,18 +120,18 @@
 
     <!-- Output Section -->
     <div class="mt-4">
-        <label>Cipher Text:</label>
-        <p>
-            <strong><?= $cipherTextdecrypt ?></strong>
-        </p>
-
-        <label>Kunci:</label>
-        <p>
-            <strong><?= $keydecrypt ?></strong>
-        </p>
-        <label>Hasil Decrypt:</label>
         <!-- Tempat untuk menampilkan output -->
         <?php if (isset($plainText)) : ?>
+            <label>Cipher Text:</label>
+            <p>
+                <strong><?= $cipherTextdecrypt ?></strong>
+            </p>
+
+            <label>Kunci:</label>
+            <p>
+                <strong><?= $keydecrypt ?></strong>
+            </p>
+            <label>Hasil Decrypt:</label>
             <p>
                 <strong><?= $plainText ?></strong>
             </p>
@@ -142,9 +142,9 @@
             file_put_contents($filepath, $plainText);
             ?>
             <p>
-            <a href="<?= base_url('download/file/decrypt.txt') ?>">Download File</a>
+                <a href="<?= base_url('download/file/decrypt.txt') ?>">Download File</a>
             </p>
-        <?php else : ?> 
+        <?php else : ?>
             <p>
                 <strong>Please input some text</strong>
             </p>
@@ -152,7 +152,7 @@
 
 
     </div>
-    </div>
+</div>
 </div>
 
 <script>
